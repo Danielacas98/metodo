@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+body {
+    
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.restablecer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    position: absolute; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+.metodo {
+    width: 500px;
+    background: #24303c;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+h1 {
+    font-size: 26px; 
+    margin-bottom: 20px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+}
+
+.metodo p {
+    height: 40px;
+    text-align: left;
+    font-size: 16px; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: white;
+    
+}
+
+.metodo a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.metodo .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
